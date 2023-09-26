@@ -1,2 +1,12 @@
+<script>
+
+  import { base } from "$app/paths";
+
+</script>
+
 <h1>Andrew Alson</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> documentation</p>
+
+<div id="about" class="container detail">
+    <img src={base + '/andrew-calcifer.JPG'} alt="Andrew & Calcifer">
+    <br>
+</div>
