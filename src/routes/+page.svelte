@@ -4,17 +4,17 @@
 
 </script>
 
-<h1>Andrew Alson</h1>
+
+<h1>Hi, welcome to my website.</h1>
 
 <div id="about" class="container detail">
     <img src='/andrew-calcifer.JPG' alt="Andrew & Calcifer">
     <br>
 </div>
 
-<style>
-    
 
-  
+<style>
+
     img {
     max-width: 100%;
     max-height: 100%;   
