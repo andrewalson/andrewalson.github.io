@@ -10,3 +10,15 @@
     <img src='/andrew-calcifer.JPG' alt="Andrew & Calcifer">
     <br>
 </div>
+
+<style>
+    
+
+  
+    img {
+    max-width: 100%;
+    max-height: 100%;   
+    position: relative;
+    }
+    
+</style>

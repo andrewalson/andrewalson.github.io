@@ -1,11 +1,13 @@
 <script>
 
-    import { base } from "$app/paths";
+    // import { base } from "$app/paths";
   
   </script>
 
 <nav>
-    <a prefetch href="/">Nav bar</a>
+    <a prefetch href="/">Home</a>
+    <a href="/pbc">PBC</a>
+    <a href="/projects">Projects</a>
 </nav>
 
 <slot /> 
@@ -14,7 +16,7 @@
 
 <style>
     nav {
-        background: rgba(0, 0, 1, 2);
+        background-color: orange;
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
@@ -36,6 +38,5 @@
         margin-bottom: 5rem;
         margin-top: 5vw;
     }
-
     
 </style>
