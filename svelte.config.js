@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
+import { drawContributions } from "github-contributions-canvas";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

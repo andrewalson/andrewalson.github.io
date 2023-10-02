@@ -9,13 +9,12 @@
     <a href="/projects">Projects</a>
     <a href="/pbc">PBC</a>
     <a href="/turing">Turing</a>
-    <a href="/linkedin">LinkedIn</a>
     <a href="/github">GitHub</a>
 </nav>
 
 <slot /> 
 
-<footer>Footer</footer>
+<footer>LinkedIn</footer>
 
 <style>
     nav {
@@ -26,7 +25,7 @@
     nav a {
         float: left;
         text-decoration: none;
-        width: 16.66%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+        width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
         text-align: center; /* If you want the text to be centered */
     }
     nav,
