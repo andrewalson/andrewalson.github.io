@@ -41,9 +41,9 @@
         padding-right: max(1rem, calc(calc(100vw - var(--width)) / 2));
     }
 
-    main {
+    /* main {
         margin-bottom: 5rem;
         margin-top: 5vw;
-    }
+    } */
     
 </style>
