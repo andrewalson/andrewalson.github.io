@@ -1,14 +1,14 @@
 <script>
 
-    // import { base } from "$app/paths";
+    import { base } from "$app/paths";
     const linkedInUrl = "https://www.linkedin.com/in/andrewalson/";
   
   </script>
 
 <nav>
-    <a prefetch href="/">Home</a>
-    <a href="/projects">Projects</a>
-    <a href="/experience">Experience</a>
+    <a prefetch href="{base}/">Home</a>
+    <a href="{base}/projects">Projects</a>
+    <a href="{base}/experience">Experience</a>
     <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">Resume <span class="link">→</span></a>
 </nav>
 
