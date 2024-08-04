@@ -6,7 +6,7 @@
 
 <section class="hero">
     <div class="profile-image-container">
-      <img src= {base + '/andrew-calcifer.JPG'} alt="Your Name" class="profile-image">
+      <img src= {'/andrew-calcifer.JPG'} alt="Your Name" class="profile-image">
     </div>
     <div class="hero-content">
       <h1>Andrew Alson</h1>
